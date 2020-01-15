@@ -25,7 +25,7 @@ lblInfo=Label(Tops,font=('arial',20,'bold'),text=localtime,fg="Steel Blue",bd=10
 lblInfo.grid(row=1,column=0)
 
 def Ref():
-    x=random.randint(10908,500876)
+    x=random.randint(1,1000)
     randomRef=str(x)
     rand.set(randomRef)
 
