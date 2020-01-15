@@ -20,7 +20,7 @@ f1.pack(side=LEFT)
 #================================================================================
 localtime=time.asctime(time.localtime(time.time()))
 
-lblInfo=Label(Tops,font=('helvetica',50,'bold','undeline'),text=" RESTAURANT ",fg="Black",bd=10,anchor='w')
+lblInfo=Label(Tops,font=('helvetica',50,'bold'),text=" RESTAURANT ",fg="Black",bd=10,anchor='w')
 lblInfo.grid(row=0,column=0)
 
 lblInfo=Label(Tops,font=('arial',20,'bold'),text=localtime,fg="Steel Blue",bd=10,anchor='w')
